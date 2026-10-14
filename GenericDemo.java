@@ -27,5 +27,7 @@ b[i]=(Double) s.nextDouble();
 GenericDemo g=new GenericDemo();
 System.out.println("Find the min number in Integer list is:"+g.min(a));
 System.out.println("Find the min number in Double list is:"+g.min(b));
+System.out.println("Find the max number in Integer list is:"+g.max(a));
+System.out.println("Find the max number in Double list is:"+g.max(b));
 }
 }
